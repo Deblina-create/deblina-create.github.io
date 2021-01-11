@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="bundle.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+        <link href="booklet/jquery.booklet.latest.css" type="text/css" rel="stylesheet" media="screen, projection, tv" />
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script> window.jQuery || document.write('<script src="booklet/jquery-2.1.0.min.js"><\/script>') </script>
+        
+        
+        <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        
+        
+        <script src="booklet/jquery.easing.1.3.js"></script>
+        <script src="booklet/jquery.booklet.latest.min.js"></script>
+        <title>Portfolio website </title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="header">
+            <nav>
+                <div class="nav-first-item">
+                    <a href="#" class="nav__logo">Deblina</a>
+                </div>
+                <div id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+                <div class="" id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class=""><a href="#home" class="nav__link active">Home</a></li>
+                        <li class=""><a href="#about" class="nav__link">About</a></li>
+                      
+                        <li class=""><a href="#work" class="nav__link">Work</a></li>
+                        <li class=""><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                
+            </nav>
+        </header>
+
+        <main class="">
+            <!--===== HOME =====-->
+            <section class="" id="home">
+                <div class="container">
+                    <div class="home__text">Hi,<br>I am 
+                        <h1 class="home__title-color">Deblina,</h1> 
+                        <h1 > 
+                            <span class="txt-type" data-wait="3000" data-words='["Web Developer", "UX Designer", " & Student"]'></span>
+                        </h1>
+                    </div>
+                    <div class="home__img"><img src="assets/images/IMG20190506183227 (1).png" alt=""></div>
+                </div>
+
+                <div class="home__social">
+                    <div><a href="#footermain" class="button">Contact</a></div>
+                    <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://github.com/Deblina-create" class="home__social-icon"><i class='bx bxl-github' ></i></a>
+                </div> 
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about  " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="aboutUnderline">
+                    <div>
+                        <h2 class="about__subtitle">I am Deblina</h2>
+                        <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! Recusandae alias accusamus atque.</p>           
+                    </div> 
+                     <canvas id="canvas"></canvas>
+                    
+                </div>      
+                     
+            </section>
+            
+            <div class="focus">
+                <div class="focus--mask">
+                    <div class="focus--mask-inner">Focus</div>
+                </div>
+            </div>
+            <p class="credits">Inspired by <a href="https://dribbble.com/shots/2076176-Focus">this great shot</a> 
+                by @eldinheric. Best viewed in Chrome - FF gets a little sticky :(
+            </p>
+        
+
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Work</h2>
+                <div class="flipbook-container">
+                    <div><button class="prev-btn">Prev</button></div>
+                    <div class="booklet" id="mybook">
+                        <div class="b-page b-page-0 b-p1">
+                            <div class="b-wrap b-wrap-left">
+                                ...
+                            </div>
+                        </div>
+                        <div class="b-page b-page-1 b-p2">
+                            <div class="b-wrap b-wrap-right">
+                                ...
+                            </div>
+                        </div>
+                        <div class="b-page b-page-2 b-p3">
+                            <div class="b-wrap b-wrap-left">
+                                ...
+                            </div>
+                        </div>
+                        <div class="b-page b-page-3 b-p4">
+                            <div class="b-wrap b-wrap-right">
+                                ...
+                            </div>
+                        </div>
+                        <div class="b-controls">
+                            ...
+                        </div>
+                        </div>
+                    <div><button class="next-btn">Prev</button></div>
+                </div>
+            </section>
+
+            <!--===== CONTACT =====-->
+            <section class="contact section" id="contact">
+                <h2 class="section-title">Contact</h2>
+
+                <div class="contact__container bd-grid">
+                    <form action="" class="contact__form bd-grid">
+                        <input type="text" placeholder="Name" class="contact__input">
+                        <input type="mail" placeholder="Email" class="contact__input">
+                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="button" value="submit" class="contact__button button">
+                    </form>
+                </div>
+            </section>
+            
+        </main>
+      
+        <!--===== FOOTER =====-->
+        <footer id ="footermain" class="footer">
+            <p class="footer__title">Deblina</p>
+            <div class="footer__social">
+                <section>deblina@gmail.com</section>
+                <a href="#" class="footer__icon"><i class='bx bxs-phone' ></i>+4634885724</a>
+                <section></section>
+            </div>
+          
+        </footer>
+
+
+        <!--===== SCROLL REVEAL =====-->
+        <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
