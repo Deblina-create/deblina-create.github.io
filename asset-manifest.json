@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0044ca05.chunk.css",
+    "main.js": "/static/js/main.a5a78c9b.chunk.js",
+    "main.js.map": "/static/js/main.a5a78c9b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.88420ba6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.88420ba6.js.map",
+    "static/js/2.201dd048.chunk.js": "/static/js/2.201dd048.chunk.js",
+    "static/js/2.201dd048.chunk.js.map": "/static/js/2.201dd048.chunk.js.map",
+    "static/js/3.e81ff79f.chunk.js": "/static/js/3.e81ff79f.chunk.js",
+    "static/js/3.e81ff79f.chunk.js.map": "/static/js/3.e81ff79f.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.0044ca05.chunk.css.map": "/static/css/main.0044ca05.chunk.css.map",
+    "static/js/2.201dd048.chunk.js.LICENSE.txt": "/static/js/2.201dd048.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/static/media/stil-YwPNWDNZHkg-unsplash.b9034906.jpg",
+    "static/media/Capture.11ec82a5.PNG": "/static/media/Capture.11ec82a5.PNG",
+    "static/media/Deblina_CV_updated.70e2ec86.pdf": "/static/media/Deblina_CV_updated.70e2ec86.pdf",
+    "static/media/bv.7f8e89f9.PNG": "/static/media/bv.7f8e89f9.PNG",
+    "static/media/filmzy.e98e8acd.png": "/static/media/filmzy.e98e8acd.png",
+    "static/media/lp.94175fa1.PNG": "/static/media/lp.94175fa1.PNG",
+    "static/media/sh.1cc2dab4.PNG": "/static/media/sh.1cc2dab4.PNG",
+    "static/media/zoo.bb20ce63.PNG": "/static/media/zoo.bb20ce63.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.88420ba6.js",
+    "static/js/2.201dd048.chunk.js",
+    "static/css/main.0044ca05.chunk.css",
+    "static/js/main.a5a78c9b.chunk.js"
+  ]
+}
